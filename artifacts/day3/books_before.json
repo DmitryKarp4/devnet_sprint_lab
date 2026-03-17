@@ -1,0 +1,56 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "author": "Mark A. Sportack",
+      "id": 0,
+      "title": "IP Routing Fundamentals"
+    },
+    {
+      "author": "Stef Maruch Aahz Maruch",
+      "id": 1,
+      "title": "Python for Dummies"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 2,
+      "title": "Linux for Networkers"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 3,
+      "title": "NetAcad: 20 Years Of Online-Learning"
+    },
+    {
+      "author": "My_Author2",
+      "id": 5,
+      "title": "My_Book2"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 5010,
+      "title": "My DevNet Book 4319d005"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8000,
+      "title": "Optimized grid-enabled toolset [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8001,
+      "title": "Quality-focused multimedia adapter [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8002,
+      "title": "Ergonomic value-added ability [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8003,
+      "title": "Streamlined next generation extranet [4319d005]"
+    }
+  ],
+  "status_code": 200
+}

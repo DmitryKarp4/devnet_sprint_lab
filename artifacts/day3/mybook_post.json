@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "02f432a394437b0c8223a627f1048354ccc2420aa815ef2b0c141a45e8ad29b2",
+  "request": {
+    "author": "Karpyuk",
+    "id": 5010,
+    "isbn": "978-104319d005",
+    "title": "My DevNet Book 4319d005"
+  },
+  "response": {
+    "author": null,
+    "id": null,
+    "title": null
+  },
+  "status_code": 200
+}

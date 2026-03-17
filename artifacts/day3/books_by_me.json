@@ -1,0 +1,36 @@
+{
+  "count": 5,
+  "items": [
+    {
+      "author": "Karpyuk",
+      "id": 5010,
+      "isbn": "978-104319d005",
+      "title": "My DevNet Book 4319d005"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8000,
+      "isbn": "978-0-641-92848-2",
+      "title": "Automated analyzing info-mediaries [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8001,
+      "isbn": "978-1-76702-811-7",
+      "title": "Team-oriented value-added leverage [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8002,
+      "isbn": "978-0-612-54432-1",
+      "title": "Public-key encompassing emulation [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8003,
+      "isbn": "978-0-7749-5490-7",
+      "title": "Organized needs-based paradigm [4319d005]"
+    }
+  ],
+  "status_code": 200
+}

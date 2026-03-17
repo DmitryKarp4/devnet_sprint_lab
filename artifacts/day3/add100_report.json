@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "02f432a394437b0c8223a627f1048354ccc2420aa815ef2b0c141a45e8ad29b2",
+  "author_used": "Karpyuk",
+  "count_requested": 100,
+  "generated_utc": "2026-03-17T09:55:27.717807+00:00",
+  "id_range": [
+    8000,
+    8099
+  ],
+  "sample_books": [
+    {
+      "author": "Karpyuk",
+      "id": 8000,
+      "isbn": "978-0-641-92848-2",
+      "title": "Automated analyzing info-mediaries [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8001,
+      "isbn": "978-1-76702-811-7",
+      "title": "Team-oriented value-added leverage [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8002,
+      "isbn": "978-0-612-54432-1",
+      "title": "Public-key encompassing emulation [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8003,
+      "isbn": "978-0-7749-5490-7",
+      "title": "Organized needs-based paradigm [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8004,
+      "isbn": "978-1-235-68321-3",
+      "title": "Synergistic encompassing open architecture [4319d005]"
+    }
+  ],
+  "tag": "4319d005"
+}

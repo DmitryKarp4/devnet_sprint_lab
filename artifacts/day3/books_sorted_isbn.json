@@ -1,0 +1,65 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 2,
+      "isbn": "000-0000000123",
+      "title": "Linux for Networkers"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 3,
+      "isbn": "000-0000001123",
+      "title": "NetAcad: 20 Years Of Online-Learning"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 5010,
+      "isbn": "978-104319d005",
+      "title": "My DevNet Book 4319d005"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8000,
+      "isbn": "978-0-509-01805-8",
+      "title": "Optimized grid-enabled toolset [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8001,
+      "isbn": "978-1-09-550589-2",
+      "title": "Quality-focused multimedia adapter [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8002,
+      "isbn": "978-0-9851861-5-9",
+      "title": "Ergonomic value-added ability [4319d005]"
+    },
+    {
+      "author": "Karpyuk",
+      "id": 8003,
+      "isbn": "978-1-946667-07-6",
+      "title": "Streamlined next generation extranet [4319d005]"
+    },
+    {
+      "author": "Mark A. Sportack",
+      "id": 0,
+      "isbn": "978-1578700714",
+      "title": "IP Routing Fundamentals"
+    },
+    {
+      "author": "My_Author2",
+      "id": 5,
+      "title": "My_Book2"
+    },
+    {
+      "author": "Stef Maruch Aahz Maruch",
+      "id": 1,
+      "isbn": "978-0471778646",
+      "title": "Python for Dummies"
+    }
+  ],
+  "status_code": 200
+}
