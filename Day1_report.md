@@ -9,14 +9,14 @@
 ## 2. NetAcad progress (Module 1)
 - Completed items: [1.1 / 1.2 / 1.3] (кратко)
 - Screenshot(s): 
-  - ![Прохождение курса](screenshot_1.png)
-  - ![Прохождение квиза 1.2.3](screenshot_2.png)
-  - ![Прохождение квиза 1.3.4](screenshot_3.png)
+  - ![Прохождение курса](img/screenshot_1.png)
+  - ![Прохождение квиза 1.2.3](img/screenshot_2.png)
+  - ![Прохождение квиза 1.3.4](img/screenshot_3.png)
 
 ## 3. VM evidence
 - File: `artifacts/day1/env.txt` exists: [**Yes**/No]
 - Screenshot(s):
-  - ![СКРИНШОТ_2: терминал в DEVASC VM + hostnamectl/date](Screenshot_4.png)
+  - ![СКРИНШОТ_2: терминал в DEVASC VM + hostnamectl/date](img/Screenshot_4.png)
 
 ## 4. Repo structure (must match assignment)
 - `src/day1_api_hello.py` : [**Yes**/No]
@@ -27,9 +27,9 @@
 
 ## 5. Commands run (paste EXACT output)
 ### 5.1 Script run
-![PASTE OUTPUT of: python src/day1_api_hello.py](Screenshot_5.png)
+![PASTE OUTPUT of: python src/day1_api_hello.py](img/Screenshot_5.png)
 ### 5.2 Tests
-![PASTE OUTPUT of: pytest -q](Screenshot_6.png)
+![PASTE OUTPUT of: pytest -q](img/Screenshot_6.png)
 ## 6. Что я изучил сегодня (3–6 bullets)
 * Научился обращаться к API с помощью библиотеки `requests` в Python.
 * Научился создавать и использовать JSON-схемы для валидации данных.
@@ -47,4 +47,4 @@
 **Problem:** В репозиторий по ошибке была закоммичена папка виртуального окружения .venv. Это привело к избыточному размеру репозитория и потенциальным конфликтам путей, так как папка попала во все предыдущие коммиты.
 **Fix:** Использована команда git filter-repo для полной перезаписи истории и удаления пути .venv/ из всех существующих слепков (snapshots) проекта. Исправлен .gitignore для предотвращения повторного добавления.
 **Proof (file/screenshot/command):**
-- ![Скриншот отсутствия .venv в истории](Screenshot_7.png)Результат команды git ls-files, показывающий отсутствие .venv в истории
+- ![Скриншот отсутствия .venv в истории](img/Screenshot_7.png)Результат команды git ls-files, показывающий отсутствие .venv в истории
