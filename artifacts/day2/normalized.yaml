@@ -1,0 +1,12 @@
+computed:
+  title_len: 18
+student:
+  group: IB-23-5B
+  name: Karpyuk
+  token: D1-IB-23-5b-10-2D8F
+  token_hash8: 4319d005
+todo:
+  completed: false
+  id: 1
+  title: delectus aut autem
+  userId: 1
