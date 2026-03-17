@@ -1,0 +1,22 @@
+ git log --oneline --graph --decorate --all -n80
+*   8c1b415 (HEAD -> main) Resolve README conflict (Day2)
+|\
+| * d947167 (feature/day2-readme-B) docs: update README.md
+* | 40955cd (feature/day2-readme-A) docs: update README.md
+|/
+* 9c17c58 (origin/main, origin/HEAD) docs: add pr_link.txt
+*   ba38afd Merge pull request #1 from DmitryKarp4/feature/day2-dataformats 
+|\  
+| * 3e94b84 (origin/feature/day2-dataformats, feature/day2-dataformats) docs: add day2 artifacts
+| * 7dde703 feat: add day2 scripts and tests
+|/
+* 96a2c71 chore: move screenshots to folder and rewrite paths in report     
+* bd995d8 docs: add Day1_report.md and screenshots
+* 8cf3c24 fix: fix typo in .gitignore and rewrite history
+* 5f5dc4e docs: add README.md
+* d9961f7 fix: move api test to tests/
+* bef5d15 fix: add annotations import
+* a7c3c00 feat: add unit test
+* a130d31 feat: add schemas
+* 8f7ae2f feat: add api hello
+* 0ff905c chore: initial commit
