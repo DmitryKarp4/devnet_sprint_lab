@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+from __future__ import annotations
 import argparse
 import hashlib
 import json
@@ -6,7 +8,6 @@ import os
 import sys
 import time
 from datetime import datetime, timezone
-
 import requests
 
 
@@ -50,7 +51,7 @@ def load_json(path: str):
         return json.load(f)
 
 
-def validate_payload(payload: dict) -> tuple[bool, list[str]]:
+def validate_payload(payload: Dict) -> Tuple[Bool, List[str]]:
     errors = []
     for k, v in EXPECTED.items():
         if k not in payload:
