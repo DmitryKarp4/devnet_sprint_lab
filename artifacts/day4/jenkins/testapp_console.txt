@@ -1,0 +1,30 @@
+Started by upstream project "BuildAppJob
+" build number 3
+
+originally caused by:
+ Started by upstream project "SamplePipeline
+" build number 1
+
+ originally caused by:
+  Started by user admin
+
+Started by upstream project "SamplePipeline
+" build number 1
+
+originally caused by:
+ Started by user admin
+
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/TestAppJob
+[TestAppJob] $ /bin/sh -xe /tmp/jenkins1666811046753339927.sh
++ grep You are calling me from
++ curl http://172.17.0.1:5050/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   211  100   211    0     0  38300      0 --:--:-- --:--:-- --:--:-- 42200
+    <h1>You are calling me from 172.17.0.1</h1>
++ exit 0
+Finished: SUCCESS
+

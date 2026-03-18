@@ -1,0 +1,61 @@
+Started by user admin
+
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BuildAppJob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/BuildAppJob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/DmitryKarp4/devnet_sprint_lab.git # timeout=10
+Fetching upstream changes from https://github.com/DmitryKarp4/devnet_sprint_lab.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/DmitryKarp4/devnet_sprint_lab.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision bf936ca1006579f5f4db3d22328b39a3e1f180ad (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bf936ca1006579f5f4db3d22328b39a3e1f180ad # timeout=10
+Commit message: "fix: fixed subrepo"
+First time build. Skipping changelog.
+[BuildAppJob] $ /bin/sh -xe /tmp/jenkins6699758549687325937.sh
++ cd sample-app
++ bash ./sample-app.sh
+
+samplerunning
+samplerunning
+tee: /home/devasc/devnet-day1-ib-23-5b-karpyuk/artifacts/day4/docker/sampleapp_build_log.txt: No such file or directory
+Sending build context to Docker daemon  6.144kB
+
+Step 1/8 : FROM python:3.9-slim
+ ---> 085da638e1b8
+Step 2/8 : RUN pip install --no-cache-dir --progress-bar off Flask==2.0.3 Werkzeug==2.0.3
+ ---> Using cache
+ ---> a48bd3adf329
+Step 3/8 : ENV FLASK_APP=/home/myapp/sample_app.py
+ ---> Using cache
+ ---> 0c4e6c8cd16f
+Step 4/8 : COPY ./static /home/myapp/static/
+ ---> Using cache
+ ---> d0725a2d71e9
+Step 5/8 : COPY ./templates /home/myapp/templates/
+ ---> 74e2bd7de306
+Step 6/8 : COPY sample_app.py /home/myapp/
+
+ ---> 1f1ffff322d8
+Step 7/8 : EXPOSE 5050
+ ---> Running in 8dcbf9360b6e
+Removing intermediate container 8dcbf9360b6e
+ ---> cd2c034da290
+Step 8/8 : CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0", "--port=5050", "--without-threads"]
+ ---> Running in 4d9f879964cf
+Removing intermediate container 4d9f879964cf
+ ---> 6e23741260a6
+Successfully built 6e23741260a6
+Successfully tagged sampleapp:latest
+a659991247c4dfe22fdb78c9df6fa4552b7aa8165ad5c8dce0f25a19adec4770
+
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                               NAMES
+a659991247c4        sampleapp             "python3 -m flask ru…"   3 seconds ago       Up 2 seconds        0.0.0.0:5050->5050/tcp              samplerunning
+d3b47a450ab4        jenkins/jenkins:lts   "/usr/bin/tini -- /u…"   32 minutes ago      Up 32 minutes       0.0.0.0:8080->8080/tcp, 50000/tcp   jenkins_server
+Finished: SUCCESS
+
