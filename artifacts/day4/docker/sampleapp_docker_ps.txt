@@ -1,0 +1,2 @@
+CONTAINER ID                                                       IMAGE               COMMAND                                                               CREATED              STATUS              PORTS                    NAMES
+502e9a82c3d8b1d01301a0ebc0f5cc0f4c4b7f28204c89e5b2b24ffead6c9a90   sampleapp           "python3 -m flask run --host=0.0.0.0 --port=8080 --without-threads"   About a minute ago   Up About a minute   0.0.0.0:8080->8080/tcp   samplerunning
