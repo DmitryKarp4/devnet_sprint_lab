@@ -1,0 +1,21 @@
+{
+    "schema_version": "5.0",
+    "student": {
+        "token_hash8": "4319d005",
+        "name": "Karpyuk",
+        "group": "IB-23-5B"
+    },
+    "yang": {
+        "ok": true,
+        "has_interfaces_node": true
+    },
+    "webex": {
+        "ok": true,
+        "room_title_contains_hash8": true
+    },
+    "pt": {
+        "ok": true,
+        "empty_ticket_seen": true
+    },
+    "validation_passed": true
+}
