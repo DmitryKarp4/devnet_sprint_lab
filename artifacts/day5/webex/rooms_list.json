@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vZGU1Y2U4ZTAtMjM3Ni0xMWYxLTg0ZGQtZGY2OGIzNDVjOTYz",
+            "title": "token_hash8 = 4319d005",
+            "type": "group",
+            "isLocked": false,
+            "lastActivity": "2026-03-19T09:34:46.894Z",
+            "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80MjM4NDQ1MS03NDI0LTRiMjAtYjY2MS0xNWM2ZDRkMDkwZGU",
+            "created": "2026-03-19T09:34:46.894Z",
+            "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9iYzBjNjllOC1kZDlmLTRmNTctYTJjYi1mNGU0YWQxMTI1Y2U",
+            "isPublic": false,
+            "isReadOnly": false
+        },
+        {
+            "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vZjIwNDRkMzAtMjM3NS0xMWYxLWI0NzktODVjMWQ0MzVmMTg5",
+            "title": "token_hash8 = 4319d005",
+            "type": "group",
+            "isLocked": false,
+            "lastActivity": "2026-03-19T09:35:03.275Z",
+            "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80MjM4NDQ1MS03NDI0LTRiMjAtYjY2MS0xNWM2ZDRkMDkwZGU",
+            "created": "2026-03-19T09:28:10.371Z",
+            "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9iYzBjNjllOC1kZDlmLTRmNTctYTJjYi1mNGU0YWQxMTI1Y2U",
+            "isPublic": false,
+            "isReadOnly": false
+        },
+        {
+            "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vOWM5M2U1NDAtMjM3NS0xMWYxLWExZjEtMWZkY2Y0NzdhODY4",
+            "title": "DevNet Associate Training!",
+            "type": "group",
+            "isLocked": false,
+            "lastActivity": "2026-03-19T09:25:47.028Z",
+            "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80MjM4NDQ1MS03NDI0LTRiMjAtYjY2MS0xNWM2ZDRkMDkwZGU",
+            "created": "2026-03-19T09:25:47.028Z",
+            "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9iYzBjNjllOC1kZDlmLTRmNTctYTJjYi1mNGU0YWQxMTI1Y2U",
+            "isPublic": false,
+            "isReadOnly": false
+        }
+    ]
+}
